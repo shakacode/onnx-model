@@ -14,8 +14,9 @@ lazy_static = "1.4"
 smallvec = "1.6"
 ndarray = "0.15"
 smallstr = "0.2"
+
 rustacuda = { version = "0.1", optional = true }
-onnxruntime = { version = "0.1", git = "https://git.aidev.ru/andrey/onnxruntime-rs.git", optional = true }
+onnxruntime = { version = "0.1", git = "https://github.com/shakacode/onnxruntime-rs", optional = true }
 
 [features]
 default = ["ort-backend"]
